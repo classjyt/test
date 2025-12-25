@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "esnext",
+        "jsxFactory": "h",
+        "types": ["node"],
+        "jsxFragmentFactory": "Fragment"
+    },
+    "include": ["nuxt.config.ts", "pages/**/*.tsx", "components/**/*.tsx"],
+    "extends": "./.nuxt/tsconfig.json"
+}
